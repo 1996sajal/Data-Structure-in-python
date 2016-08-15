@@ -92,7 +92,7 @@ class LinkedList:
 				temp = temp._next
 			node = self.Node(ele,temp._next)
 			temp._next = node
-8		self._size += 1
+		self._size += 1
 	
 	def insertBeforePosition(self,ele,pos=0):
 		if pos <= 0:
